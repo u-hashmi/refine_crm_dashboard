@@ -11,16 +11,16 @@ import { useDelete, useNavigation } from '@refinedev/core'
 
 
 type ProjectCardProps = {
-    id: string,
-    title: string,
-    updatedAt: string,
-    dueDate?: string,
+    id: string;
+    title: string;
+    updatedAt: string;
+    dueDate?: string;
     users?: {
-        id: string,
-        name: string,
-        avatarUrl?: User['avatarUrl']
-    }[]
-}
+      id: string;
+      name: string;
+      avatarUrl?: User['avatarUrl'];
+    }[];
+  };
 
 const ProjectCard = ({id, title, dueDate, users}: ProjectCardProps) => {
     const {token} = theme.useToken();
@@ -145,8 +145,8 @@ export const ProjectCardMemo = memo(ProjectCard, (prev, next) => {
     return (
         prev.id === next.id &&
         prev.title === next.title &&
-        prev.updatedAt === next.updatedAt &&
         prev.dueDate === next.dueDate &&
-        prev.users?.length === next.users?.length
+        prev.users?.length === next.users?.length &&
+        prev.updatedAt === next.updatedAt
     )
 })

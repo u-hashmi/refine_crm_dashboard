@@ -137,9 +137,7 @@ const TasksList = ({ children }: React.PropsWithChildren) => {
                                 <ProjectCardMemo
                                     {...task}
                                     dueDate={task.dueDate || undefined}
-                                >
-
-                                </ProjectCardMemo>
+                                />
                             </KanbanItem>
                         ))}
                         {!taskStages.unassignedStage.length && (
@@ -162,7 +160,7 @@ const TasksList = ({ children }: React.PropsWithChildren) => {
                                     <ProjectCardMemo
                                         {...task}
                                         dueDate={task.dueDate || undefined}
-                                    ></ProjectCardMemo>
+                                    />
                                 </KanbanItem>
                             ))}
                             {!column.tasks.length && (
