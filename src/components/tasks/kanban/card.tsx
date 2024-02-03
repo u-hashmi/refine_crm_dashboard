@@ -145,8 +145,8 @@ export const ProjectCardMemo = memo(ProjectCard, (prev, next) => {
     return (
         prev.id === next.id &&
         prev.title === next.title &&
+        prev.updatedAt === next.updatedAt &&
         prev.dueDate === next.dueDate &&
-        prev.users?.length === next.users?.length &&
-        prev.updatedAt === next.updatedAt
+        prev.users?.length === next.users?.length
     )
 })
