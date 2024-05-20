@@ -1,5 +1,7 @@
 # Refine CRM Dashboard
 
+##Screenshots
+
 Welcome to the Refine CRM Dashboard project! This repository contains the code and resources for a customizable CRM dashboard application.
 
 ## Table of Contents
