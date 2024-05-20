@@ -2,6 +2,15 @@
 
 ## Screenshots
 
+**Login**
+![image](https://github.com/u-hashmi/refine_crm_dashboard/assets/126305135/0f22a682-7fbd-4ac5-9569-4775a3436740)
+**Dashboard**
+![image](https://github.com/u-hashmi/refine_crm_dashboard/assets/126305135/f1116838-0788-4aa8-8191-dfb49229678a)
+**Tasks - Kanban Layout**
+![image](https://github.com/u-hashmi/refine_crm_dashboard/assets/126305135/a2453869-0726-4062-ba6b-30ff6834f41e)
+
+**View at:** https://refine-crm-dashboard.vercel.app/
+
 Welcome to the Refine CRM Dashboard project! This repository contains the code and resources for a customizable CRM dashboard application.
 
 ## Table of Contents
